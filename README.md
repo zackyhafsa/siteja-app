@@ -146,9 +146,9 @@ Agar kodingan kita tidak bentrok, ikuti aturan main ini:
     ```bash
     git push origin nama-fitur-kalian
     ```
-4.  **Jangan lupa, selalu pull terlebih dahulu sebelum kalian memulai nya**, Make sure kalian ngoding di kode terbaru/terakhir di push agar tidak bentrok.
+4.  **Jangan lupa, selalu pull terlebih dahulu sebelum kalian memulai nya**, Make sure kalian ngoding di kode terbaru/terakhir dipush agar tidak bentrok.
     ```bash
     git pull
     ```
 
-Good Luck Mas Yuda and Mas Uzi
+Good Luck Mas Yuda and Mas Uzi👌
