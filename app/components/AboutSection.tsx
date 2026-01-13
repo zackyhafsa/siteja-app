@@ -244,7 +244,7 @@ const AboutSection = () => {
                             </p>
                             <div className="flex items-center gap-2 text-emerald-600 font-medium">
                                 <MapPin className="w-4 h-4" />
-                                <span>Kecamatan Bojongsoang, Kabupaten Bandung</span>
+                                <span>Kecamatan Argapura, Kabupaten Majalengka</span>
                             </div>
                         </div>
                     </div>
