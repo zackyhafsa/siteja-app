@@ -74,11 +74,11 @@ const AboutSection = () => {
         <section id="tentang" className="relative py-24 lg:py-32 bg-white overflow-hidden">
             {/* Background Decorations */}
             <div className="absolute inset-0 overflow-hidden">
-                <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-emerald-100/50 to-teal-100/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
-                <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-br from-teal-100/50 to-cyan-100/50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
+                <div className="absolute top-0 right-0 w-96 h-96 bg-linear-to-br from-emerald-100/50 to-teal-100/50 rounded-full blur-3xl -translate-y-1/2 translate-x-1/2" />
+                <div className="absolute bottom-0 left-0 w-80 h-80 bg-linear-to-br from-teal-100/50 to-cyan-100/50 rounded-full blur-3xl translate-y-1/2 -translate-x-1/2" />
 
                 {/* Subtle Pattern */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#10b98108_1px,transparent_1px),linear-gradient(to_bottom,#10b98108_1px,transparent_1px)] bg-[size:24px_24px]" />
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,#10b98108_1px,transparent_1px),linear-gradient(to_bottom,#10b98108_1px,transparent_1px)] bg-size-[24px_24px]" />
             </div>
 
             <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -92,7 +92,7 @@ const AboutSection = () => {
                     <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-6">
                         Mengenal Lebih Dekat{' '}
                         <span className="relative inline-block">
-                            <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+                            <span className="bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
                                 Desa Tejamulya
                             </span>
                             <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 8" fill="none">
@@ -122,14 +122,14 @@ const AboutSection = () => {
                             key={index}
                             className="group relative bg-white/80 backdrop-blur-sm rounded-2xl p-6 border border-gray-100 shadow-lg shadow-gray-100/50 hover:shadow-xl hover:shadow-emerald-100/50 hover:border-emerald-200/50 transition-all duration-300"
                         >
-                            <div className="absolute inset-0 bg-gradient-to-br from-emerald-50/50 to-teal-50/50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                            <div className="absolute inset-0 bg-linear-to-br from-emerald-50/50 to-teal-50/50 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                             <div className="relative">
-                                <div className="w-12 h-12 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-4 shadow-lg shadow-emerald-500/25 group-hover:scale-110 transition-transform duration-300">
+                                <div className="w-12 h-12 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center mb-4 shadow-lg shadow-emerald-500/25 group-hover:scale-110 transition-transform duration-300">
                                     <info.icon className="w-6 h-6 text-white" />
                                 </div>
                                 <p className="text-sm text-gray-500 mb-1">{info.label}</p>
                                 <div className="flex items-baseline gap-1">
-                                    <span className="text-2xl lg:text-3xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
+                                    <span className="text-2xl lg:text-3xl font-bold bg-linear-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
                                         {info.value}
                                     </span>
                                     {info.suffix && (
@@ -146,14 +146,14 @@ const AboutSection = () => {
                     {/* Left - Image/Illustration */}
                     <div className="relative">
                         {/* Decorative Elements */}
-                        <div className="absolute -top-4 -left-4 w-24 h-24 bg-gradient-to-br from-emerald-400/20 to-teal-400/20 rounded-2xl blur-xl" />
-                        <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-gradient-to-br from-teal-400/20 to-cyan-400/20 rounded-2xl blur-xl" />
+                        <div className="absolute -top-4 -left-4 w-24 h-24 bg-linear-to-br from-emerald-400/20 to-teal-400/20 rounded-2xl blur-xl" />
+                        <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-linear-to-br from-teal-400/20 to-cyan-400/20 rounded-2xl blur-xl" />
 
                         {/* Main Card */}
-                        <div className="relative bg-gradient-to-br from-emerald-500 via-teal-500 to-cyan-500 rounded-3xl p-1 shadow-2xl shadow-emerald-500/20">
+                        <div className="relative bg-linear-to-br from-emerald-500 via-teal-500 to-cyan-500 rounded-3xl p-1 shadow-2xl shadow-emerald-500/20">
                             <div className="bg-white rounded-[22px] p-8 lg:p-10">
                                 {/* Desa Illustration */}
-                                <div className="relative aspect-square bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl flex items-center justify-center overflow-hidden">
+                                <div className="relative aspect-square bg-linear-to-br from-emerald-50 to-teal-50 rounded-2xl flex items-center justify-center overflow-hidden">
                                     {/* Abstract Village Illustration */}
                                     <div className="absolute inset-0 flex items-end justify-center pb-8">
                                         {/* Mountains */}
@@ -170,7 +170,7 @@ const AboutSection = () => {
                                         </div>
 
                                         {/* Ground */}
-                                        <div className="absolute bottom-0 left-0 right-0 h-20 bg-gradient-to-t from-emerald-200/50 to-transparent rounded-b-2xl" />
+                                        <div className="absolute bottom-0 left-0 right-0 h-20 bg-linear-to-t from-emerald-200/50 to-transparent rounded-b-2xl" />
 
                                         {/* Trees */}
                                         <div className="absolute bottom-16 left-8">
@@ -189,7 +189,7 @@ const AboutSection = () => {
 
                                     {/* Center Icon */}
                                     <div className="relative z-10 w-32 h-32 bg-white rounded-3xl shadow-xl shadow-emerald-200/50 flex items-center justify-center">
-                                        <div className="w-20 h-20 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-500/30">
+                                        <div className="w-20 h-20 bg-linear-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center shadow-lg shadow-emerald-500/30">
                                             <Landmark className="w-10 h-10 text-white" />
                                         </div>
                                     </div>
@@ -211,7 +211,7 @@ const AboutSection = () => {
                         {/* Vision Mission */}
                         <div className="space-y-4">
                             <div className="flex items-center gap-3">
-                                <div className="w-10 h-10 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center shadow-lg shadow-emerald-500/25">
+                                <div className="w-10 h-10 bg-linear-to-br from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center shadow-lg shadow-emerald-500/25">
                                     <Target className="w-5 h-5 text-white" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900">Visi & Misi Desa</h3>
@@ -220,7 +220,7 @@ const AboutSection = () => {
                             <div className="space-y-3 pl-2">
                                 {visiMisi.map((item, index) => (
                                     <div key={index} className="flex items-start gap-3 group">
-                                        <div className="w-6 h-6 bg-emerald-100 rounded-lg flex items-center justify-center flex-shrink-0 mt-0.5 group-hover:bg-emerald-500 transition-colors duration-300">
+                                        <div className="w-6 h-6 bg-emerald-100 rounded-lg flex items-center justify-center shrink-0 mt-0.5 group-hover:bg-emerald-500 transition-colors duration-300">
                                             <CheckCircle2 className="w-4 h-4 text-emerald-600 group-hover:text-white transition-colors duration-300" />
                                         </div>
                                         <p className="text-gray-600 leading-relaxed">{item}</p>
@@ -230,9 +230,9 @@ const AboutSection = () => {
                         </div>
 
                         {/* Location Info */}
-                        <div className="bg-gradient-to-br from-gray-50 to-emerald-50/30 rounded-2xl p-6 border border-gray-100">
+                        <div className="bg-linear-to-br from-gray-50 to-emerald-50/30 rounded-2xl p-6 border border-gray-100">
                             <div className="flex items-center gap-3 mb-4">
-                                <div className="w-10 h-10 bg-gradient-to-br from-teal-500 to-cyan-600 rounded-xl flex items-center justify-center shadow-lg shadow-teal-500/25">
+                                <div className="w-10 h-10 bg-linear-to-br from-teal-500 to-cyan-600 rounded-xl flex items-center justify-center shadow-lg shadow-teal-500/25">
                                     <Eye className="w-5 h-5 text-white" />
                                 </div>
                                 <h3 className="text-xl font-bold text-gray-900">Lokasi Strategis</h3>
@@ -258,11 +258,11 @@ const AboutSection = () => {
                             className="group relative bg-white rounded-2xl p-6 lg:p-8 border border-gray-100 shadow-lg shadow-gray-100/50 hover:shadow-xl hover:shadow-emerald-100/50 hover:border-emerald-200/50 transition-all duration-300 overflow-hidden"
                         >
                             {/* Hover Background */}
-                            <div className="absolute inset-0 bg-gradient-to-br from-emerald-50/50 to-teal-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                            <div className="absolute inset-0 bg-linear-to-br from-emerald-50/50 to-teal-50/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
 
                             {/* Content */}
                             <div className="relative">
-                                <div className="w-14 h-14 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mb-5 shadow-lg shadow-emerald-500/25 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
+                                <div className="w-14 h-14 bg-linear-to-br from-emerald-500 to-teal-600 rounded-2xl flex items-center justify-center mb-5 shadow-lg shadow-emerald-500/25 group-hover:scale-110 group-hover:rotate-3 transition-all duration-300">
                                     <feature.icon className="w-7 h-7 text-white" />
                                 </div>
                                 <h3 className="text-lg font-bold text-gray-900 mb-3">{feature.title}</h3>
@@ -270,7 +270,7 @@ const AboutSection = () => {
                             </div>
 
                             {/* Decorative Corner */}
-                            <div className="absolute -bottom-8 -right-8 w-24 h-24 bg-gradient-to-br from-emerald-500/10 to-teal-500/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
+                            <div className="absolute -bottom-8 -right-8 w-24 h-24 bg-linear-to-br from-emerald-500/10 to-teal-500/10 rounded-full blur-xl opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                         </div>
                     ))}
                 </div>
@@ -281,7 +281,7 @@ const AboutSection = () => {
                         <p className="text-gray-600">Punya pertanyaan tentang Desa Tejamulya?</p>
                         <Link
                             href="/chat"
-                            className="group inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:scale-105 transition-all duration-300"
+                            className="group inline-flex items-center gap-2 px-6 py-3 bg-linear-to-r from-emerald-500 to-teal-600 text-white font-semibold rounded-xl shadow-lg shadow-emerald-500/25 hover:shadow-emerald-500/40 hover:scale-105 transition-all duration-300"
                         >
                             <span>Tanya SITEJA</span>
                             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform duration-300" />
