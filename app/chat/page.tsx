@@ -255,7 +255,7 @@ export default function Chat() {
 
             {/* Chat Messages Area */}
             <main className="flex-1 pt-20 pb-32">
-                <div className="max-w-4xl mx-auto">
+                <div className="max-w-4xl mx-auto px-5">
                     {messages.length === 0 ? (
                         <WelcomeMessage onSuggestionClick={handleSuggestionClick} />
                     ) : (

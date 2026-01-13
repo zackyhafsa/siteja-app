@@ -27,16 +27,16 @@ const HeroSection = () => {
     ]
 
     return (
-        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-to-br from-slate-50 via-white to-emerald-50">
+        <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-linear-to-br from-slate-50 via-white to-emerald-50">
             {/* Background Decorations */}
             <div className="absolute inset-0 overflow-hidden">
-                {/* Gradient Orbs */}
-                <div className="absolute -top-40 -right-40 w-80 h-80 bg-gradient-to-br from-emerald-400/30 to-teal-400/30 rounded-full blur-3xl animate-pulse" />
-                <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-gradient-to-br from-teal-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
-                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-gradient-to-br from-emerald-200/20 to-teal-200/20 rounded-full blur-3xl" />
+                {/* linear Orbs */}
+                <div className="absolute -top-40 -right-40 w-80 h-80 bg-linear-to-br from-emerald-400/30 to-teal-400/30 rounded-full blur-3xl animate-pulse" />
+                <div className="absolute -bottom-40 -left-40 w-96 h-96 bg-linear-to-br from-teal-400/20 to-cyan-400/20 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+                <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-150 h-150 bg-linear-to-br from-emerald-200/20 to-teal-200/20 rounded-full blur-3xl" />
 
                 {/* Grid Pattern */}
-                <div className="absolute inset-0 bg-[linear-gradient(to_right,#8882_1px,transparent_1px),linear-gradient(to_bottom,#8882_1px,transparent_1px)] bg-[size:14px_24px] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
+                <div className="absolute inset-0 bg-[linear-gradient(to_right,#8882_1px,transparent_1px),linear-gradient(to_bottom,#8882_1px,transparent_1px)] bg-size-[14px_24px] mask-[radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
 
                 {/* Floating Elements */}
                 <div className="absolute top-20 left-[15%] w-3 h-3 bg-emerald-400 rounded-full animate-bounce opacity-60" style={{ animationDuration: '3s' }} />
@@ -61,7 +61,7 @@ const HeroSection = () => {
                             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
                                 Selamat Datang di{' '}
                                 <span className="relative">
-                                    <span className="bg-gradient-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
+                                    <span className="bg-linear-to-r from-emerald-600 via-teal-600 to-cyan-600 bg-clip-text text-transparent">
                                         SITEJA
                                     </span>
                                     <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 200 12" fill="none">
@@ -99,7 +99,7 @@ const HeroSection = () => {
                         <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
                             <Link
                                 href="/chat"
-                                className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-emerald-500 via-teal-500 to-emerald-600 text-white font-semibold rounded-2xl shadow-xl shadow-emerald-500/30 hover:shadow-emerald-500/50 hover:scale-[1.02] transition-all duration-300"
+                                className="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-linear-to-r from-emerald-500 via-teal-500 to-emerald-600 text-white font-semibold rounded-2xl shadow-xl shadow-emerald-500/30 hover:shadow-emerald-500/50 hover:scale-[1.02] transition-all duration-300"
                             >
                                 <MessageCircle className="w-5 h-5" />
                                 <span>Mulai Percakapan</span>
@@ -118,7 +118,7 @@ const HeroSection = () => {
                         <div className="grid grid-cols-3 gap-4 pt-4">
                             {stats.map((stat, index) => (
                                 <div key={index} className="text-center lg:text-left">
-                                    <div className="text-2xl sm:text-3xl font-bold bg-gradient-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
+                                    <div className="text-2xl sm:text-3xl font-bold bg-linear-to-r from-emerald-600 to-teal-600 bg-clip-text text-transparent">
                                         {stat.value}
                                     </div>
                                     <div className="text-xs sm:text-sm text-gray-500">{stat.label}</div>
@@ -131,14 +131,14 @@ const HeroSection = () => {
                     <div className="relative lg:pl-8">
                         {/* Decorative Ring */}
                         <div className="absolute inset-0 flex items-center justify-center">
-                            <div className="w-[350px] h-[350px] sm:w-[450px] sm:h-[450px] border border-emerald-200/50 rounded-full animate-spin-slow opacity-50" style={{ animationDuration: '20s' }} />
-                            <div className="absolute w-[300px] h-[300px] sm:w-[380px] sm:h-[380px] border border-teal-200/50 rounded-full animate-spin-slow opacity-50" style={{ animationDuration: '15s', animationDirection: 'reverse' }} />
+                            <div className="w-87.5 h-87.5 sm:w-112.5 sm:h-112.5 border border-emerald-200/50 rounded-full animate-spin-slow opacity-50" style={{ animationDuration: '20s' }} />
+                            <div className="absolute w-75 h-75 sm:w-95 sm:h-95 border border-teal-200/50 rounded-full animate-spin-slow opacity-50" style={{ animationDuration: '15s', animationDirection: 'reverse' }} />
                         </div>
 
                         {/* Chat Preview Card */}
                         <div className="relative bg-white/90 backdrop-blur-xl rounded-3xl shadow-2xl shadow-gray-200/50 border border-gray-100/50 overflow-hidden mx-auto max-w-md">
                             {/* Chat Header */}
-                            <div className="bg-gradient-to-r from-emerald-500 to-teal-600 px-6 py-4">
+                            <div className="bg-linear-to-r from-emerald-500 to-teal-600 px-6 py-4">
                                 <div className="flex items-center gap-3">
                                     <div className="w-12 h-12 bg-white/20 backdrop-blur-sm rounded-xl flex items-center justify-center">
                                         <MessageCircle className="w-6 h-6 text-white" />
@@ -154,10 +154,10 @@ const HeroSection = () => {
                             </div>
 
                             {/* Chat Messages */}
-                            <div className="p-6 space-y-4 bg-gradient-to-b from-gray-50/50 to-white">
+                            <div className="p-6 space-y-4 bg-linear-to-b from-gray-50/50 to-white">
                                 {/* Bot Message */}
                                 <div className="flex gap-3">
-                                    <div className="w-8 h-8 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                                    <div className="w-8 h-8 bg-linear-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center shrink-0 shadow-md">
                                         <Sparkles className="w-4 h-4 text-white" />
                                     </div>
                                     <div className="bg-white rounded-2xl rounded-tl-md px-4 py-3 shadow-sm border border-gray-100 max-w-[85%]">
@@ -169,7 +169,7 @@ const HeroSection = () => {
 
                                 {/* User Message */}
                                 <div className="flex gap-3 justify-end">
-                                    <div className="bg-gradient-to-r from-emerald-500 to-teal-600 rounded-2xl rounded-tr-md px-4 py-3 shadow-md max-w-[85%]">
+                                    <div className="bg-linear-to-r from-emerald-500 to-teal-600 rounded-2xl rounded-tr-md px-4 py-3 shadow-md max-w-[85%]">
                                         <p className="text-white text-sm">
                                             Bagaimana cara mengurus surat keterangan domisili?
                                         </p>
@@ -178,7 +178,7 @@ const HeroSection = () => {
 
                                 {/* Bot Typing Indicator */}
                                 <div className="flex gap-3">
-                                    <div className="w-8 h-8 bg-gradient-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center flex-shrink-0 shadow-md">
+                                    <div className="w-8 h-8 bg-linear-to-br from-emerald-500 to-teal-600 rounded-lg flex items-center justify-center shrink-0 shadow-md">
                                         <Sparkles className="w-4 h-4 text-white" />
                                     </div>
                                     <div className="bg-white rounded-2xl rounded-tl-md px-4 py-3 shadow-sm border border-gray-100">
@@ -200,7 +200,7 @@ const HeroSection = () => {
                                         className="flex-1 bg-transparent text-sm text-gray-600 placeholder-gray-400 outline-none"
                                         disabled
                                     />
-                                    <button className="w-10 h-10 bg-gradient-to-r from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center shadow-md hover:shadow-lg transition-shadow">
+                                    <button className="w-10 h-10 bg-lienar-to-r from-emerald-500 to-teal-600 rounded-xl flex items-center justify-center shadow-md hover:shadow-lg transition-shadow">
                                         <ArrowRight className="w-5 h-5 text-white" />
                                     </button>
                                 </div>
