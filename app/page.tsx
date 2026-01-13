@@ -1,8 +1,13 @@
 import React from 'react'
+import HeroSection from './components/HeroSection'
+import AboutSection from './components/AboutSection'
 
 const page = () => {
   return (
-    <div>Landing page</div>
+    <main>
+      <HeroSection />
+      <AboutSection />
+    </main>
   )
 }
 
