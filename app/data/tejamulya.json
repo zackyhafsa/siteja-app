@@ -1,0 +1,510 @@
+{
+  "profil_desa": {
+    "identitas": {
+      "nama_desa": "TEJAMULYA",
+      "kecamatan": "ARGAPURA",
+      "kabupaten": "KAB. MAJALENGKA",
+      "provinsi": "JAWA BARAT",
+      "bulan": 6,
+      "tahun": 2025,
+      "tanggal_data": "30 Juni 2025"
+    },
+    "aparat_pemerintah": {
+      "kepala_desa": "KUSNADI",
+      "sekretaris_desa": "MASAD NATADIPRAJA, S.IP",
+      "pengisi_data": "MASAD NATADIPRAJA, S.IP",
+      "jabatan_pengisi": "SEKRETARIS DESA"
+    },
+    "I_perkembangan_kependudukan": {
+      "jumlah_penduduk": {
+        "tahun_ini": {
+          "total": 1001,
+          "laki_laki": 991,
+          "perempuan": "Data tidak terbaca spesifik di kolom perempuan"
+        },
+        "tahun_lalu": {
+          "total": 1005,
+          "laki_laki": 1001,
+          "perempuan": 1001
+        },
+        "persentase_perkembangan": {
+          "total": "-0.4%",
+          "laki_laki": "-1%",
+          "perempuan": null
+        }
+      },
+      "jumlah_keluarga": {
+        "tahun_ini": {
+          "kk_laki_laki": 705,
+          "kk_perempuan": 86,
+          "jumlah_total": 791
+        },
+        "tahun_lalu": {
+          "kk_laki_laki": 701,
+          "kk_perempuan": 89,
+          "jumlah_total": 790
+        },
+        "persentase_perkembangan": {
+          "kk_laki_laki": "0.57%",
+          "kk_perempuan": "-3.37%",
+          "jumlah_total": null
+        }
+      }
+    },
+    "II_ekonomi_masyarakat": {
+      "pengangguran": {
+        "angkatan_kerja_18_56_thn": 0,
+        "sekolah_tidak_bekerja": 0,
+        "ibu_rumah_tangga": 0,
+        "bekerja_penuh": 0,
+        "bekerja_tidak_tentu": 0,
+        "cacat_tidak_bekerja": 0,
+        "cacat_bekerja": 0
+      },
+      "kesejahteraan_keluarga": {
+        "prasejahtera": 0,
+        "sejahtera_1": 0,
+        "sejahtera_2": 0,
+        "sejahtera_3": 0,
+        "sejahtera_3_plus": 0,
+        "total_kepala_keluarga": 0
+      }
+    },
+    "III_produk_domestik_bruto": {
+      "subsektor_pertanian": [
+        {
+          "komoditas": "Bawang Merah",
+          "luas_produksi_ha": 241,
+          "hasil_produksi_ton_per_ha": null,
+          "nilai_produksi_rp": 27474000,
+          "biaya_pemupukan_rp": 474400,
+          "biaya_bibit_rp": 5220400,
+          "biaya_obat_rp": 1465000,
+          "biaya_lainnya_rp": 2375000
+        }
+      ],
+      "subsektor_perkebunan": [
+        {
+          "komoditas": "Cengkeh",
+          "luas_produksi_ha": 3000,
+          "hasil_produksi_ton_per_ha": 3000,
+          "nilai_produksi_rp": 630000000000,
+          "biaya_pemupukan_rp": 48000000,
+          "biaya_bibit_rp": 48000000,
+          "biaya_obat_rp": null,
+          "biaya_lainnya_rp": 6000000
+        }
+      ],
+      "subsektor_peternakan": [
+        {
+          "jenis_produksi": "Telur",
+          "hasil_produksi": 540960,
+          "nilai_produksi_rp": 30000,
+          "nilai_bahan_baku_rp": 6800,
+          "nilai_bahan_penolong_rp": 120000,
+          "jumlah_ternak_ekor": 3000
+        },
+        {
+          "jenis_produksi": "Daging",
+          "hasil_produksi": 1500960,
+          "nilai_produksi_rp": 30000000,
+          "nilai_bahan_baku_rp": 7000,
+          "nilai_bahan_penolong_rp": 150000,
+          "jumlah_ternak_ekor": 1000
+        }
+      ],
+      "subsektor_perikanan": [
+        {
+          "jenis": "Mujair",
+          "nilai_produksi": 0
+        },
+        {
+          "jenis": "Gurame",
+          "nilai_produksi": 0
+        }
+      ],
+      "sektor_lainnya": {
+        "pertambangan": {
+          "nilai_produksi": 0,
+          "jumlah_jenis": 10
+        },
+        "kerajinan": {
+          "nilai_produksi": 0
+        },
+        "kehutanan": {
+          "nilai_produksi": 0
+        },
+        "perdagangan": {
+          "nilai_transaksi_besar": 0,
+          "nilai_transaksi_eceran": 0
+        },
+        "jasa": {
+          "keuangan_bank_transaksi": 0,
+          "jasa_pemerintahan_transaksi": 0,
+          "hiburan_rekreasi_transaksi": 0
+        },
+        "angkutan_komunikasi": {
+          "nilai_transaksi": 0
+        },
+        "listrik_gas_air": {
+          "nilai_produksi_listrik": 0,
+          "nilai_produksi_air": 0
+        }
+      }
+    },
+    "IV_pendapatan_perkapita": {
+      "pendapatan_riil_keluarga": {
+        "jumlah_kk": 0,
+        "jumlah_anggota_keluarga": 0,
+        "pendapatan_kepala_keluarga": 0,
+        "pendapatan_anggota_keluarga": 0
+      }
+    },
+    "V_struktur_mata_pencaharian": {
+      "pertanian": {
+        "petani": 0,
+        "buruh_tani": 0,
+        "pemilik_usaha_tani": 0
+      },
+      "perkebunan": {
+        "karyawan": 0,
+        "buruh": 0,
+        "pemilik": 0
+      },
+      "peternakan": {
+        "peternak_perorangan": 0,
+        "buruh": 0,
+        "pemilik": 0
+      },
+      "perikanan": {
+        "nelayan": 0,
+        "buruh": 0,
+        "pemilik": 0
+      },
+      "kehutanan": {
+        "pengumpul_hasil_hutan": 0,
+        "buruh": 0,
+        "pemilik": 0
+      },
+      "pertambangan_galian_c": {
+        "penambang": 0,
+        "buruh": 0,
+        "pemilik": 0
+      },
+      "perdagangan": {
+        "karyawan": 0,
+        "buruh": 0,
+        "pengusaha": 0
+      }
+    },
+    "VI_penguasaan_aset_ekonomi": {
+      "aset_tanah": {
+        "tidak_memiliki_tanah": 0,
+        "memiliki_tanah": "Data jumlah orang kosong untuk semua kategori luas tanah"
+      },
+      "aset_sarana_produksi": {
+        "penggilingan_padi": 0,
+        "traktor": 0,
+        "pabrik_pengolahan_pertanian": 0,
+        "kapal_penangkap_ikan": 0,
+        "alat_pengolahan_perikanan": 0,
+        "alat_pengolahan_peternakan": 0,
+        "alat_pengolahan_perkebunan": 0,
+        "alat_pengolahan_hutan": 0,
+        "alat_pertambangan": 0,
+        "alat_pariwisata": 0,
+        "alat_industri_jasa": 0,
+        "alat_kerajinan": 0,
+        "alat_migas": 0
+      }
+    },
+    "VIII_pendidikan_masyarakat": {
+      "tingkat_pendidikan": "Data jumlah orang kosong untuk semua tingkat (SD-S3)",
+      "wajib_belajar_9_tahun": {
+        "penduduk_usia_7_15": 266,
+        "masih_sekolah": 266,
+        "tidak_sekolah": 10
+      },
+      "rasio_guru_murid": "Data kosong",
+      "kelembagaan_pendidikan": "Data unit/kegiatan kosong"
+    },
+    "IX_kesehatan_masyarakat": {
+      "kualitas_ibu_hamil": {
+        "jumlah_ibu_hamil": 10,
+        "periksa_posyandu": 10,
+        "periksa_puskesmas": 10,
+        "periksa_rs": 10,
+        "periksa_dokter": 10,
+        "periksa_bidan": 10,
+        "periksa_dukun_terlatih": 10,
+        "kematian_ibu_hamil": 10,
+        "melahirkan": 10,
+        "nifas": 10,
+        "kematian_nifas": 10,
+        "nifas_hidup": 10
+      },
+      "kualitas_bayi": {
+        "keguguran": 10,
+        "lahir": 10,
+        "lahir_mati": 10,
+        "lahir_hidup": 10,
+        "mati_0_1_bulan": 10,
+        "mati_1_12_bulan": 10,
+        "lahir_berat_kurang": 10,
+        "kelainan_organ_0_5_tahun": 10
+      },
+      "kualitas_persalinan": {
+        "tempat": {
+          "rs_umum": 10,
+          "rumah_bersalin": 10,
+          "puskesmas": 10,
+          "polindes": 10,
+          "bkia": 10,
+          "praktek_bidan": 10,
+          "praktek_dokter": 10,
+          "rumah_dukun": 10,
+          "rumah_sendiri": 10
+        },
+        "pertolongan": {
+          "dokter": 10,
+          "bidan": 10,
+          "perawat": 10,
+          "dukun": 10,
+          "keluarga": 0
+        }
+      },
+      "cakupan_imunisasi": {
+        "bayi_2_bulan_dpt1_bcg_polio1": 10,
+        "bayi_3_bulan_dpt2_polio2": 10,
+        "bayi_4_bulan_dpt3_polio3": 10,
+        "bayi_9_bulan_campak": 10,
+        "sudah_imunisasi_cacar": 10
+      },
+      "kb_dan_pasangan_subur": {
+        "remaja_putri_12_17": 0,
+        "wanita_subur_15_49": 10,
+        "wanita_kawin_muda_kurang_16": 10,
+        "pasangan_usia_subur": 0,
+        "akseptor_kb": 10,
+        "pengguna_suntik": 10,
+        "pengguna_spiral": 10,
+        "pengguna_kondom": 10,
+        "pengguna_pil": 10,
+        "pengguna_vasektomi": 10,
+        "pengguna_tubektomi": 10,
+        "pengguna_kalender": 10,
+        "pengguna_obat_tradisional": 10,
+        "tidak_kb": 10
+      },
+      "angka_harapan_hidup": 0,
+      "pemenuhan_air_bersih": {
+        "sumur_gali": 0,
+        "pam": 0,
+        "penampung_hujan": 10,
+        "sumur_pompa": 10,
+        "perpipaan_kran": 10,
+        "hidran_umum": 10,
+        "air_sungai": 10,
+        "embung": 0,
+        "mata_air": 10,
+        "total_keluarga": 10
+      },
+      "sanitasi": {
+        "wc_sehat": 10,
+        "wc_kurang_sehat": 0,
+        "buang_air_sungai": 10,
+        "mck_umum": 0
+      },
+      "jumlah_penderita_sakit": {
+        "total": "10 orang untuk setiap kategori (data generik)"
+      },
+      "sarana_kesehatan": {
+        "mck_umum": 10,
+        "posyandu": 10,
+        "kader_posyandu": 10,
+        "dasawisma": 10,
+        "pengurus_dasawisma": 10,
+        "kader_bina_balita": 10,
+        "plkb": 10
+      }
+    },
+    "X_keamanan_ketertiban": {
+      "konflik": {
+        "sara": 0,
+        "antar_tetangga": 0,
+        "antar_rt_rw": 0,
+        "masyarakat_pemerintah": 0,
+        "kerugian_material": 0
+      },
+      "kriminalitas": {
+        "pencurian": 0,
+        "penjarahan": 0,
+        "perjudian": 0,
+        "pembunuhan": 0,
+        "penculikan": 0,
+        "kejahatan_seksual": 0
+      },
+      "miras_narkoba": {
+        "toko_miras": 0,
+        "pengguna_miras": 0,
+        "kasus_mabuk_miras": 0,
+        "pengedar_narkoba": 0,
+        "pengguna_narkoba": 0
+      },
+      "masalah_sosial": {
+        "gelandangan": 0,
+        "pengemis": 0,
+        "anak_jalanan": 0,
+        "lansia_terlantar": 0,
+        "orang_gila": 0,
+        "cacat_fisik": 0
+      },
+      "siskamling": {
+        "jumlah_pos_ronda": 0,
+        "anggota_hansip": 0,
+        "kelompok_satpam": 0,
+        "pos_jaga_induk": 0
+      }
+    },
+    "XI_kedaulatan_politik": {
+      "pajak": {
+        "realisasi_pbb": "0.00%",
+        "target_pbb": 0,
+        "realisasi_retribusi": "0.00%"
+      },
+      "partisipasi_politik": "Data pemilih kosong",
+      "BPD": {
+        "jumlah_anggota": 0,
+        "produk_keputusan": {
+          "peraturan_desa": 0,
+          "keterangan_kepala_desa": 0,
+          "rancangan_peraturan": 0,
+          "aspirasi_masyarakat": 0,
+          "pendapat_ke_kades": 0,
+          "usul_pendapat": 0,
+          "evaluasi_apb_desa": 0
+        }
+      },
+      "lembaga_kemasyarakatan": {
+        "realisasi_program_kerja": "0.00%"
+      }
+    },
+    "XII_lembaga_kemasyarakatan": {
+      "keberadaan_LKD": "Tidak",
+      "detail_organisasi": {
+        "LPMD": {
+          "status": "Ada",
+          "kegiatan": 5
+        },
+        "PKK": {
+          "status": "Ada",
+          "kegiatan": 12
+        },
+        "RW": {
+          "status": "Ada",
+          "kegiatan": 15
+        },
+        "RT": {
+          "status": "Ada",
+          "kegiatan": 6
+        },
+        "Karang_Taruna": {
+          "status": "Ada",
+          "kegiatan": 5
+        },
+        "Kelompok_Tani": {
+          "status": "Ada",
+          "kegiatan": 2
+        },
+        "Lembaga_Adat": {
+          "status": "Ada",
+          "kegiatan": 3
+        },
+        "BUMDes": {
+          "status": "Ada",
+          "kegiatan": 1
+        },
+        "Organisasi_Keagamaan": {
+          "status": "Ada",
+          "kegiatan": 5
+        },
+        "Organisasi_Pemuda_Lainnya": {
+          "status": "Ada",
+          "kegiatan": 3
+        }
+      }
+    },
+    "XIII_pemerintahan_desa": {
+      "anggaran_apb_desa": {
+        "total_penerimaan": 0,
+        "sumber": {
+          "apbd_kab_kota": 0,
+          "bantuan_kab_kota": 0,
+          "bantuan_provinsi": 0,
+          "bantuan_pusat": 0,
+          "pad": 0,
+          "swadaya": 0,
+          "dana_desa": 0,
+          "perusahaan": 0
+        },
+        "belanja": {
+          "publik": 0,
+          "aparatur": 0
+        }
+      },
+      "prasarana_pemerintah_desa": {
+        "gedung_kantor": "Ada - Baik",
+        "jumlah_ruang_kerja": 6,
+        "balai_desa": "Ada",
+        "listrik": "Ada",
+        "air_bersih": "Ada",
+        "telepon": "Ada"
+      },
+      "inventaris_kantor_desa": {
+        "mesin_tik": 10,
+        "meja": 20,
+        "kursi": 85,
+        "almari_arsip": 5,
+        "komputer": 10,
+        "mesin_fax": 10,
+        "kendaraan_dinas": 1
+      },
+      "administrasi": {
+        "buku_peraturan_desa": "Ada dan Terisi",
+        "buku_keputusan_kades": "Ada dan Terisi",
+        "buku_administrasi_kependudukan": "Ada dan Terisi",
+        "buku_inventaris": "Ada dan Terisi",
+        "buku_aparat": "Ada dan Terisi",
+        "buku_tanah_kas_desa": "Ada dan Terisi",
+        "buku_pajak_retribusi": "Ada dan Terisi",
+        "buku_tanah": "Ada dan Terisi",
+        "buku_pengaduan": "Ada dan Terisi",
+        "buku_ekspedisi": "Ada dan Terisi",
+        "buku_profil_desa": "Ada dan Terisi",
+        "buku_induk_penduduk": "Ada dan Terisi",
+        "buku_mutasi_penduduk": "Ada dan Terisi",
+        "buku_rekap_penduduk": "Ada dan Terisi",
+        "buku_registrasi_pelayanan": "Ada dan Terisi",
+        "buku_penduduk_sementara": "Ada dan Terisi",
+        "buku_anggaran_penerimaan": "Ada dan Terisi",
+        "buku_anggaran_pengeluaran": "Ada dan Terisi",
+        "buku_kas_umum": "Ada dan Terisi",
+        "buku_kas_pembantu": "Ada dan Terisi",
+        "buku_data_lembaga": "Ada dan Terisi"
+      },
+      "prasarana_BPD": {
+        "gedung": 10,
+        "ruang_kerja": 10,
+        "listrik": 10,
+        "air": 10,
+        "telepon": 10,
+        "mesin_tik": 1,
+        "meja": 1,
+        "kursi": 5,
+        "almari": 10,
+        "komputer": 1,
+        "fax": 10
+      }
+    }
+  }
+}
