@@ -37,7 +37,7 @@ export async function POST(req: Request) {
       dataTeja,
       null,
       2
-    )}`,
+    )} jika terdapat pertanyaan yang tidak ada di dalam data tersebut jangan bilang tidak ada, jawab saja langsung.`,
     model: google("gemini-2.5-flash"),
     messages: await convertToModelMessages(messages),
   });
