@@ -508,3 +508,213 @@
     }
   }
 }
+
+{
+  "profil_desa": {
+    "nama": "Desa Tejamulya",
+    "kecamatan": "Argapura",
+    "kabupaten": "Majalengka",
+    "topografi": {
+      "kategori": "Dataran tinggi",
+      "ketinggian": "±1.500 mdpl"
+    },
+    "batas_wilayah": {
+      "utara": "Desa Argamukti",
+      "barat": "Desa Sukasari Kidul",
+      "selatan": "Desa Sagara",
+      "timur": "Desa Cibunut/TNGC"
+    }
+  },
+  "geografi_dan_lahan": {
+    "luas_wilayah_total_km2": 3.172715,
+    "penggunaan_tanah_ha": {
+      "tanah_sawah": {
+        "total": 88.7,
+        "rincian": {
+          "irigasi_teknis": 73,
+          "irigasi_setengah_teknis": 7.7,
+          "tadah_hujan": 8
+        }
+      },
+      "tanah_bukan_sawah": {
+        "total": 142.2,
+        "rincian": {
+          "pekarangan_bangunan": 20,
+          "tegalan": 57.4,
+          "lain_lain": 64.8
+        }
+      }
+    },
+    "iklim": {
+      "jenis": "Tropis",
+      "suhu_rata_rata": "29°C",
+      "suhu_minimum": "20°C",
+      "suhu_maksimum": "36°C"
+    }
+  },
+  "administrasi": {
+    "struktur_wilayah": [
+      {
+        "dusun": "Blok Desa",
+        "jumlah_rw": 2,
+        "jumlah_rt": 7
+      },
+      {
+        "dusun": "Blok Tejaguna",
+        "jumlah_rw": 1,
+        "jumlah_rt": 2
+      },
+      {
+        "dusun": "Blok Cibuluh",
+        "jumlah_rw": 2,
+        "jumlah_rt": 7
+      }
+    ]
+  },
+  "demografi": {
+    "populasi": {
+      "tahun_2023": 2051,
+      "tahun_2024": 2038,
+      "pertumbuhan_rata_rata": "1.921%",
+      "kepadatan_2024": "32 jiwa/km²"
+    },
+    "sebaran_penduduk_per_dusun": [
+      {
+        "dusun": "Blok Desa",
+        "tahun_2023": 766,
+        "tahun_2024": 765
+      },
+      {
+        "dusun": "Blok Tejaguna",
+        "tahun_2023": 532,
+        "tahun_2024": 532
+      },
+      {
+        "dusun": "Blok Cibuluh",
+        "tahun_2023": 742,
+        "tahun_2024": 742
+      }
+    ],
+    "mata_pencaharian_dominan": "Pertanian (Padi, Bawang Merah, Cabai, Cengkeh)"
+  },
+  "kesehatan": {
+    "indikator_kematian_2024": {
+      "angka_kematian_bayi": 0,
+      "angka_kematian_ibu": 0,
+      "angka_kematian_balita": 0,
+      "bblr": 0
+    }
+  },
+  "program_pembangunan_dan_anggaran": {
+    "pelayanan_administrasi_perkantoran": [
+      "Penyediaan jasa surat menyurat dan ATK",
+      "Penyediaan jasa komunikasi dan listrik",
+      "Honorarium/belanja pegawai",
+      "Penghasilan tetap Kepala Desa dan Perangkat",
+      "Tunjangan BPD",
+      "Penyediaan jasa PBB Tanah Kas Desa"
+    ],
+    "peningkatan_sarana_prasarana_aparatur": [
+      "Pemeliharaan komputer/printer",
+      "Pemeliharaan kendaraan dinas",
+      "Pemeliharaan gedung kantor"
+    ],
+    "pembangunan_fisik": [
+      "Pembangunan Sarana Pemerintahan",
+      "Pembangunan Sarana Perhubungan (Betonisasi jalan, jembatan)",
+      "Pembangunan Prasarana Sosial"
+    ],
+    "bantuan_sosial": [
+      "Bantuan kesejahteraan Imam Masjid",
+      "Bantuan RUTILAHU",
+      "Bantuan Masyarakat Jompo",
+      "Bantuan Pembangunan Mushola"
+    ],
+    "bantuan_keuangan_lembaga": [
+      "LPMD",
+      "TP-PKK Desa",
+      "RT/RW",
+      "Karang Taruna",
+      "LINMAS",
+      "Kelompok Tani",
+      "Gapoktan"
+    ]
+  },
+  "permasalahan_pembangunan": {
+    "pelayanan_dasar": {
+      "pendidikan": [
+        "Rendahnya ketersediaan sarana PAUD, TK, SD, SMPT",
+        "Belum optimalnya penyelenggaraan PAUD/TK/SD",
+        "Rendahnya kualitas tenaga kependidikan",
+        "Rendahnya kualitas manajemen pelayanan pendidikan"
+      ],
+      "kesehatan": [
+        "Kurangnya pelayanan dasar ibu melahirkan (akses sulit, terbatas bidan)",
+        "Tingginya angka kesakitan penyakit menular",
+        "Rendahnya perilaku hidup bersih sehat (PHBS)",
+        "Penggunaan obat tidak rasional (tanpa resep)",
+        "Cakupan pelayanan warga miskin belum optimal"
+      ],
+      "pekerjaan_umum": [
+        "Jalan rusak/tidak memadai",
+        "Volume sampah meningkat, tidak ada TPS/TPA",
+        "Jaringan irigasi tidak sempurna",
+        "Sanitasi pemukiman rendah",
+        "Drainase belum optimal (banjir/kekeringan)"
+      ],
+      "perumahan": [
+        "Banyak rumah tidak layak huni (Rutilahu)",
+        "Masih ada rumah belum berlistrik/air bersih",
+        "Pertumbuhan rumah tangga tidak seimbang dengan pengadaan rumah"
+      ],
+      "penataan_ruang": [
+        "Belum ada dokumen perencanaan tata ruang desa",
+        "Pelanggaran pemanfaatan ruang"
+      ]
+    },
+    "sosial_ekonomi": {
+      "ketenagakerjaan": [
+        "Rendahnya kualitas/produktivitas tenaga kerja (rata-rata SDM rendah)",
+        "Kurangnya lapangan kerja",
+        "Minim informasi peluang kerja"
+      ],
+      "umkm_koperasi": [
+        "Belum banyak UMKM berbadan hukum",
+        "Rendahnya akses permodalan dan teknologi",
+        "Kapasitas pengelola koperasi rendah"
+      ],
+      "pertanian": [
+        "Kepemilikan lahan sempit",
+        "Permodalan lemah, bunga bank tinggi",
+        "Stok pupuk tidak stabil, harga saprodi tinggi",
+        "Harga jual produk fluktuatif/rendah",
+        "Belum optimalnya pengelolaan pasca panen"
+      ],
+      "pariwisata": [
+        "Belum ada kemitraan dengan dunia usaha",
+        "Belum ada master plan agrowisata"
+      ],
+      "perdagangan": [
+        "Distribusi bahan pokok belum optimal",
+        "Pasar tradisional kurang terlindungi dari pasar modern"
+      ]
+    },
+    "lingkungan_hidup": {
+      "isu": [
+        "Peningkatan sampah plastik",
+        "Pencemaran air akibat limbah rumah tangga",
+        "Pencemaran tanah akibat bahan kimia pertanian",
+        "Terbatasnya Ruang Terbuka Hijau (RTH)"
+      ]
+    },
+    "pemerintahan": {
+      "isu": [
+        "Fungsi BPD (legislasi/pengawasan) belum optimal",
+        "Belum optimalnya intensifikasi pendapatan desa",
+        "Kurangnya sarana TI untuk pelayanan publik",
+        "Peraturan Desa belum lengkap",
+        "Profesionalisme aparatur perlu ditingkatkan"
+      ]
+    }
+  }
+}
