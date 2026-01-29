@@ -1,5 +1,5 @@
 {
-  "profil_desa": {
+  "profil": {
     "identitas": {
       "nama_desa": "TEJAMULYA",
       "kecamatan": "ARGAPURA",
@@ -506,10 +506,7 @@
         "fax": 10
       }
     }
-  }
-}
-
-{
+  },
   "profil_desa": {
     "nama": "Desa Tejamulya",
     "kecamatan": "Argapura",
