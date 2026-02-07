@@ -15,6 +15,19 @@
       "pengisi_data": "MASAD NATADIPRAJA, S.IP",
       "jabatan_pengisi": "SEKRETARIS DESA"
     },
+    "struktur_organisasi" : {
+      "kepala_desa": "KUSNADI",
+      "sekretaris_desa": "MASAD NATADIPRAJA, S.IP",
+      "pengisi_data": "MASAD NATADIPRAJA, S.IP",
+      "jabatan_pengisi": "SEKRETARIS DESA",
+      "BPD": "Santang Robaya, S.Pd.I",
+      "kasi_pemerintahan": "KARTOMI",
+      "kasi_kesejahteraan": "Egi Erlangga",
+      "kasi_pelayanan": "Hadis Suhenda, S.Sy",
+      "kadus_blok_desa": "Didi Supardi",
+      "kadus_blok_tejaguna": "Dadang",
+      "kadus_blok_cibuluh": "Iin Farlina"
+    },
     "I_perkembangan_kependudukan": {
       "jumlah_penduduk": {
         "tahun_ini": {
